@@ -1,0 +1,24 @@
+code: ok(1,'sleep for one second'); sleep(1);
+200 OK
+
+begin:
+   "request" : {
+      "action" : "echo",
+      "encoding" : "json",
+      "foo" : "bar",
+      "pretty" : "1",
+      "sort" : "nestoria_rank"
+   },
+   "response" : {
+      "action" : "echo",
+      regexp: "created_http" : ".*",
+      regexp: "created_unix" : \d+,
+      "encoding" : "json",
+      "foo" : "bar",
+      "pretty" : "1",
+      "sort" : "nestoria_rank",
+      "status_code" : "200",
+      "status_text" : "OK",
+      "we_are_hiring" : "We are hiring programmers! http://lokku.com/jobs"
+   }
+end:

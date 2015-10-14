@@ -1,0 +1,43 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Class-Inspector-1.28
+    pathname: A/AD/ADAMK/Class-Inspector-1.28.tar.gz
+    provides:
+      Class::Inspector 1.28
+      Class::Inspector::Functions 1.28
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      File::Spec 0.80
+      Test::More 0.47
+      perl 5.006
+  File-ShareDir-1.102
+    pathname: R/RE/REHSACK/File-ShareDir-1.102.tar.gz
+    provides:
+      File::ShareDir 1.102
+    requirements:
+      Carp 0
+      Class::Inspector 1.12
+      ExtUtils::MakeMaker 0
+      File::ShareDir::Install 0.03
+      File::Spec 0.80
+      perl 5.008001
+      warnings 0
+  File-ShareDir-Install-0.10
+    pathname: G/GW/GWYN/File-ShareDir-Install-0.10.tar.gz
+    provides:
+      File::ShareDir::Install 0.10
+    requirements:
+      ExtUtils::MakeMaker 6.11
+      File::Spec 0
+      IO::Dir 0
+  swat-0.1.58
+    pathname: M/ME/MELEZHIK/swat-0.1.58.tar.gz
+    provides:
+      swat 0.001058
+      swat::story undef
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      File::ShareDir 0
+      File::Temp 0
+      Test::Harness 0
+      Test::More 0
