@@ -1,0 +1,7 @@
+{
+    "version": "0.0.1",
+    "name" : "swat-nestoria-search",
+    "description": "swat smoke tests for nestoria API",
+    "url" : "https://github.com/melezhik/WebService-Nestoria-Search/tree/master/swat-test"
+}
+

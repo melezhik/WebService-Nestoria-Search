@@ -1,2 +1,2 @@
-requires 'swat';
+requires 'swat', ">= 0.1.80";
 requires 'JSON';
