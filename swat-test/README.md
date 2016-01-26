@@ -4,8 +4,18 @@
 # usage
 
     
-    carton 
-    carton exec swat 
+    # if you are IT guy
+
+    sparrow index update
+    sparrow plg install swat-nestoria-search    
+    sparrow project create nest-api
+    sparrow check add nest-api nest-api-check 
+    sparrow check set nest-api nest-api-check swat-nestoria-search
+    sparrow check run nest-api nest-api-check 
+    
+    # if you are dev guy
+
+    carton exec swat    
 
 # sample output
 
