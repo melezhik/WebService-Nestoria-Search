@@ -1,6 +1,9 @@
+
+within: status code:
+200
+
+within: status text:
+OK
+
+
 code: ok(1,'sleep for one second'); sleep(1);
-200 OK
-begin:
-   "response" : {
-      "application_response_code" : "100"
-end:

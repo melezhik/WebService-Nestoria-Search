@@ -1,2 +1,2 @@
-requires 'swat'
-
+requires 'swat';
+requires 'JSON';
